@@ -1,0 +1,49 @@
+[user]
+	name = Carmen Cerino
+	email = ccerinojr@gmail.com
+[core]
+	excludesfile = ~/.gitignore
+	editor = mate -w
+[difftool "sourcetree"]
+	cmd = ksdiff -w \"$LOCAL\" \"$REMOTE\"
+	path =
+[mergetool "sourcetree"]
+	cmd = ksdiff --merge --output \"$MERGED\" --base \"$BASE\" -- \"$LOCAL\" --snapshot \"$REMOTE\" --snapshot
+	trustExitCode = true
+[difftool "Kaleidoscope"]
+	cmd = ksdiff --partial-changeset --relative-path \"$MERGED\" -- \"$LOCAL\" \"$REMOTE\"
+	path =
+[mergetool "Kaleidoscope"]
+	cmd = ksdiff --merge --output \"$MERGED\" --base \"$BASE\" -- \"$LOCAL\" --snapshot \"$REMOTE\" --snapshot
+	trustExitCode = true
+[alias]
+   co = checkout
+   ci = commit
+   st = status
+   br = branch
+   commitall = !git add -A && git commit
+   pullall = !git pull -r && git submodule update --init --recursive
+   snapshot = !git stash save "snapshot: $(date)" && git stash apply "stash@{0}"
+   shelve = !git stash save "snapshot: $(date)"
+   ours = "!f() { git checkout --ours $@ && git add $@; }; f"
+   theirs = "!f() { git checkout --theirs $@ && git add $@; }; f"
+   hist = log --pretty=format:\"%h %ad | %s%d [%an]\" --graph --date=short
+   ls = log --pretty=format:'%C(yellow)%h %C(blue)%ad%C(red)%d %C(reset)%s%C(green) [%cn]' --decorate --date=short
+   search = git rev-list --all | xargs git grep -F
+   graphlog = log --all --decorate --graph --oneline
+[color]
+	diff = auto
+	status = auto
+	branch = auto
+	ui = true
+[push]
+   default = tracking
+[diff]
+   tool = Kaleidoscope
+[merge]
+   tool = Kaleidoscope
+[mergetool]
+	keepBackup = false
+[branch]
+	autosetuprebase = always
+
