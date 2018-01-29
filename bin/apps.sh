@@ -29,3 +29,6 @@ open https://www.sourcetreeapp.com
 
 #Screensconnect 
 open https://edovia.com/screens-connect/
+
+#Ksdiff
+open https://www.kaleidoscopeapp.com/ksdiff2
