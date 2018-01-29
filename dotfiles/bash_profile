@@ -1,0 +1,3 @@
+source ~/.bash-git-prompt/gitprompt.sh
+source ~/.git-completion.bash
+
