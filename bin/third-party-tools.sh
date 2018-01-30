@@ -1,5 +1,5 @@
 echo Installing TextMate Shell Support
-ln -s /Applications/TextMate.app/Contents/Resources/mate ~/bin/mate
+ln -s /Applications/TextMate.app/Contents/Resources/mate /usr/local/bin/mate
 
 echo Installing Homebrew
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
