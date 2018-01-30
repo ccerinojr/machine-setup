@@ -2,3 +2,4 @@ export EDITOR="/usr/local/bin/mate -w"
 eval "$(rbenv init -)"
 source ~/.bash-git-prompt/gitprompt.sh
 source ~/.git-completion.bash
+export GIT_PROMPT_THEME=Custom

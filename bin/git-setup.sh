@@ -12,6 +12,8 @@ ln -s ~/.machine-setup/dotfiles/git-completion.bash ~/.git-completion.bash
 echo Alias bash-git-prompt
 ln -s ~/.machine-setup/bash-git-prompt ~/.bash-git-prompt
 
+echo Alias git-prompt-colors
+ln -s ~/.machine-setup/dotfiles/git-prompt-colors.sh ~/.git-prompt-colors.sh
 
 
 
