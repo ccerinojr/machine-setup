@@ -9,7 +9,7 @@ ln -s ~/.machine-setup/dotfiles/gitconfig ~/.gitconfig
 echo Alias git-completion
 ln -s ~/.machine-setup/dotfiles/git-completion.bash ~/.git-completion.bash
 
-echo Alias git-completion
+echo Alias bash-git-prompt
 ln -s ~/.machine-setup/bash-git-prompt ~/.bash-git-prompt
 
 
