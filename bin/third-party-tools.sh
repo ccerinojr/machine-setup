@@ -1,3 +1,5 @@
+#!/bin/bash
+
 echo Installing TextMate Shell Support
 ln -s /Applications/TextMate.app/Contents/Resources/mate /usr/local/bin/mate
 
@@ -9,3 +11,6 @@ brew install rbenv
 
 echo Init rbenb
 rbenv init 
+
+echo Alias bash_profile
+ln -s ~/.machine-setup/dotfiles/bash_profile ~/.bash_profile
