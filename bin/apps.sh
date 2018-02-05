@@ -27,6 +27,9 @@ open https://myaccount.techsmith.com/MyProducts/Software
 #SourceTree
 open https://www.sourcetreeapp.com
 
+#Screens
+open https://edovia.com/screens-mac/
+
 #Screensconnect 
 open https://edovia.com/screens-connect/
 
