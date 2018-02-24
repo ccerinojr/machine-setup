@@ -1,7 +1,7 @@
 #!/bin/bash
 
 echo Alias gitignore
-ln -s ~/.machine-setup/dotfiles/gitignore ~/.gitignore
+ln -s ~/.machine-setup/dotfiles/gitignore ~/.gitignore_global
 
 echo Alias gitconfig
 ln -s ~/.machine-setup/dotfiles/gitconfig ~/.gitconfig
