@@ -35,3 +35,9 @@ open https://edovia.com/screens-connect/
 
 #Ksdiff
 open https://www.kaleidoscopeapp.com/ksdiff2
+
+#Alfred
+open https://www.alfredapp.com
+
+#Sketch
+open https://www.sketchapp.com
