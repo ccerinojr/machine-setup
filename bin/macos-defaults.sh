@@ -114,7 +114,11 @@ defaults -currentHost write com.apple.screensaver moduleDict -dict moduleName -s
 
 # Hot corners -> top left -> mission control
 defaults write com.apple.dock "wvous-tl-corner" -int 2
+defaults write com.apple.dock "wvous-tr-modifier" -int 0
+
 defaults write com.apple.dock "wvous-tr-corner" -int 2
+defaults write com.apple.dock "wvous-tr-modifier" -int 0
+
 
 
 ###############################################################################
