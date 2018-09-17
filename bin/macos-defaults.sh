@@ -27,7 +27,7 @@ defaults write com.apple.finder FXEnableSlowAnimation -bool false
 defaults write com.apple.NetworkBrowser BrowseAllInterfaces 1
 
 # Always open everything in Finder's list view. This is important.
-defaults write com.apple.Finder FXPreferredViewStyle clmv
+defaults write com.apple.Finder FXPreferredViewStyle Nlsv
 
 # When performing a search, search the current folder by default
 defaults write com.apple.finder FXDefaultSearchScope -string "SCcf"
@@ -98,8 +98,6 @@ defaults write com.apple.desktopservices DSDontWriteNetworkStores -bool true
 # Speed up Mission Control animations
 defaults write com.apple.dock expose-animation-duration -float 0.2
 
-# Add iOS Simulator to Launchpad
-ln -s /Applications/Xcode.app/Contents/Applications/iPhone\ Simulator.app /Applications/iOS\ Simulator.app
 
 # ==============================================
 # Desktop & Screen Saver
