@@ -4,7 +4,7 @@ echo Alias gitignore
 ln -s ~/.machine-setup/dotfiles/gitignore ~/.gitignore_global
 
 echo Alias gitconfig
-cp -s ~/.machine-setup/dotfiles/gitconfig ~/.gitconfig
+cp ~/.machine-setup/dotfiles/gitconfig ~/.gitconfig
 
 echo Alias git-completion
 ln -s ~/.machine-setup/dotfiles/git-completion.bash ~/.git-completion.bash
