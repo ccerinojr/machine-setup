@@ -1,7 +1,7 @@
 #!/bin/bash
 
-#Textmate
-open https://github.com/textmate/textmate/releases/
+#BBEdit
+open https://www.barebones.com/products/bbedit/
 
 #Dropbox
 open https://www.dropbox.com/install
