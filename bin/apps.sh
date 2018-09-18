@@ -41,3 +41,6 @@ open https://www.alfredapp.com
 
 #Sketch
 open https://www.sketchapp.com
+
+#PlayNow
+open https://github.com/marcboquet/PlayNow
