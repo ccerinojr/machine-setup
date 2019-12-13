@@ -3,3 +3,7 @@ eval "$(rbenv init -)"
 source ~/.bash-git-prompt/gitprompt.sh
 source ~/.git-completion.bash
 export GIT_PROMPT_THEME=Custom
+
+pr-message() {
+    git log --decorate --pretty=%s%b --first-parent master..HEAD | tail -r  | pbcopy
+}
