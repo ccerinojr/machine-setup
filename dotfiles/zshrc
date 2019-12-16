@@ -1,0 +1,47 @@
+# Path to your oh-my-zsh installation.
+export ZSH=$HOME/.machine-setup/oh-my-zsh
+
+# Set name of the theme to load --- if set to "random", it will
+# load a random theme each time oh-my-zsh is loaded, in which case,
+# to know which specific one was loaded, run: echo $RANDOM_THEME
+# See https://github.com/ohmyzsh/ohmyzsh/wiki/Themes
+ZSH_THEME="agnoster"
+
+
+# Uncomment the following line to change how often to auto-update (in days).
+export UPDATE_ZSH_DAYS=7
+
+export LANG=en_US.UTF-8
+
+
+# Uncomment the following line to display red dots whilst waiting for completion.
+COMPLETION_WAITING_DOTS="true"
+
+# Which plugins would you like to load?
+# Standard plugins can be found in ~/.oh-my-zsh/plugins/*
+# Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
+# Example format: plugins=(rails git textmate ruby lighthouse)
+# Add wisely, as too many plugins slow down shell startup.
+plugins=(
+  git 
+  git-flow 
+  github 
+  brew
+  colorize
+  osx 
+  rbenv 
+  bundler 
+  gem 
+  bbedit 
+  textmate 
+  xcode
+)
+
+source $ZSH/oh-my-zsh.sh
+
+export EDITOR="/usr/local/bin/mate -w"
+eval "$(rbenv init -)"
+
+pr-message() {
+    git log --decorate --pretty=%s%b --first-parent master..HEAD | tail -r  | pbcopy
+}
