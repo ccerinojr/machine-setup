@@ -3,9 +3,6 @@
 #BBEdit
 open https://www.barebones.com/products/bbedit/
 
-#Dropbox
-open https://www.dropbox.com/install
-
 #Visual Studio Code
 open https://code.visualstudio.com/download
 
