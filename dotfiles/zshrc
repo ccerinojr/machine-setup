@@ -41,6 +41,8 @@ plugins=(
 
 source $ZSH/oh-my-zsh.sh
 
+AGNOSTER_PROMPT_SEGMENTS[2]=
+
 export EDITOR="/usr/local/bin/mate -w"
 eval "$(rbenv init -)"
 
