@@ -12,8 +12,5 @@ brew install rbenv
 echo Init rbenb
 rbenv init 
 
-echo Alias bash_profile
-ln -s ~/.machine-setup/dotfiles/bash_profile ~/.bash_profile
-
 echo Alias zshrc
 ln -s ~/.machine-setup/dotfiles/zshrc ~/.zshrc
