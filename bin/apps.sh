@@ -12,8 +12,8 @@ open https://www.google.com/chrome/
 #iTerm
 open https://www.iterm2.com/downloads.html
 
-#Pixie
-open https://www.dropbox.com/s/iadwwi3rn759x1m/Pixie.app.zip?dl=0
+#Pixie, Download Xcode Additonal Tools
+open https://developer.apple.com/download/all/
 
 #Postman
 open https://www.getpostman.com
