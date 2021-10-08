@@ -47,5 +47,5 @@ export EDITOR="/usr/local/bin/mate -w"
 eval "$(rbenv init -)"
 
 pr-message() {
-    git log --decorate --pretty=%s%b --first-parent master..HEAD | tail -r  | pbcopy
+	git log --reverse --decorate --pretty=%s%b --first-parent master..HEAD | pbcopy
 }
