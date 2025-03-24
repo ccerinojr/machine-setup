@@ -1,0 +1,7 @@
+# Path to homebrew
+eval "$(/opt/homebrew/bin/brew shellenv)"
+
+# Path to your oh-my-zsh installation.
+export ZSH=$HOME/.machine-setup/oh-my-zsh
+
+export ZSH_CUSTOM=$HOME/.machine-setup/oh-my-custom

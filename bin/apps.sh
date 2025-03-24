@@ -12,32 +12,23 @@ open https://www.google.com/chrome/
 #iTerm
 open https://www.iterm2.com/downloads.html
 
+#Xcode
+open https://developer.apple.com/download/applications/
+
 #Pixie, Download Xcode Additonal Tools
 open https://developer.apple.com/download/all/
 
-#Postman
-open https://www.getpostman.com
+#Fork
+open https://git-fork.com
 
-# Snagit 4
-open https://myaccount.techsmith.com/MyProducts/Software
-
-#SourceTree
-open https://www.sourcetreeapp.com
-
-#Screens
-open https://edovia.com/screens-mac/
-
-#Screensconnect 
-open https://edovia.com/screens-connect/
+#Kaleidoscope
+open https://kaleidoscope.app/download
 
 #Ksdiff
 open https://www.kaleidoscopeapp.com/ksdiff2
 
 #Alfred
 open https://www.alfredapp.com
-
-#Sketch
-open https://www.sketchapp.com
 
 #PlayNow
 open https://github.com/marcboquet/PlayNow
