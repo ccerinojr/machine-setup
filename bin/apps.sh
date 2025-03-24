@@ -32,3 +32,6 @@ open https://www.alfredapp.com
 
 #PlayNow
 open https://github.com/marcboquet/PlayNow
+
+#SteerMouse
+open https://plentycom.jp/en/steermouse/download.php
